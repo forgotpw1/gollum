@@ -8,7 +8,7 @@
   <fieldset id="gollum-editor-fields">
   {{#is_create_page}}
   <div id="gollum-editor-title-field" class="singleline">
-    <label for="page" class="jaws">Page Title</label>
+    <label for="page" class="jaws">Section Title</label>
     <input type="text" name="page" id="gollum-editor-page-title" value="{{page_name}}">
     {{#has_path}}
     <p class="path_note"><strong>NOTE:</strong> This page will be created within the &quot;<strong>{{path}}</strong>&quot; directory</p>
@@ -130,7 +130,7 @@
 
     <span class="jaws"><br></span>
     <input type="submit" id="gollum-editor-submit" value="Save" title="Save current changes">
-    <a href="{{base_url}}/preview" id="gollum-editor-preview" class="minibutton" title="Preview this Page">Preview</a>
+    <a href="{{base_url}}/preview" id="gollum-editor-preview" class="minibutton" title="Preview this Section">Preview</a>
   </fieldset>
 </form>
 </div>
