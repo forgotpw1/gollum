@@ -6,7 +6,7 @@ module Precious
       attr_reader :results, :ref, :allow_editing
 
       def title
-        "All pages in #{@ref}"
+        "All Sections"
       end
 
       def breadcrumb
